@@ -55,7 +55,7 @@
         loader.load('brain.glb', function (gltf) {
             const brain = gltf.scene;
             brain.position.set(0, 0, 0);
-            brain.scale.set(0.1, 0.1, 0.1);
+            brain.scale.set(10, 10, 10);
             scene.add(brain);
         }, undefined, function (error) {
             console.error(error);
