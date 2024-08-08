@@ -49,14 +49,15 @@
         };
 
         let model;
-
+        let modelName = getUrlParameter('model') || 'brain.glb';
+        
         // Load the GLB model
         const loader = new THREE.GLTFLoader(manager);
-        loader.load('brain.glb', function (gltf) {
-            const brain = gltf.scene;
-            brain.position.set(0, 0, 0);
-            brain.scale.set(10, 10, 10);
-            scene.add(brain);
+        loader.load(modelName, function (gltf) {
+            model = gltf.scene;
+            model.position.set(0, 0, 0);
+            model.scale.set(10, 10, 10);
+            scene.add(model);
         }, undefined, function (error) {
             console.error(error);
         });
