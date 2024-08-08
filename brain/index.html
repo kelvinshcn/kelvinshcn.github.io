@@ -53,9 +53,10 @@
         // Load the GLB model
         const loader = new THREE.GLTFLoader(manager);
         loader.load('brain_model.glb', function (gltf) {
-            model = gltf.scene;
-            model.scale.set(0.01, 0.01, 0.01); // Adjust the scale of the model if necessary
-            scene.add(model);
+            const brain = gltf.scene;
+            brain.position.set(0, 0, 0);
+            brain.scale.set(1, 1, 1);
+            scene.add(brain);
         }, undefined, function (error) {
             console.error(error);
         });
