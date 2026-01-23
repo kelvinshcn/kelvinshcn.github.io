@@ -1,0 +1,444 @@
+{
+  "traceEvents": [
+    {
+      "name": "process_name",
+      "ph": "M",
+      "pid": 1,
+      "tid": 0,
+      "ts": 0,
+      "args": {
+        "name": "ComplexProcess"
+      }
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1,
+      "tid": 1,
+      "ts": 0,
+      "args": {
+        "name": "MainThread"
+      }
+    },
+    {
+      "name": "RootTask",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 100000
+    },
+    {
+      "name": "Level1_A",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 100500
+    },
+    {
+      "name": "Level2_A",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 100700
+    },
+    {
+      "name": "Level3_Small",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 101700,
+      "dur": 100
+    },
+    {
+      "name": "Level3_Small",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 101900,
+      "dur": 100
+    },
+    {
+      "name": "Level3_Small",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 102100,
+      "dur": 100
+    },
+    {
+      "name": "Level3_Small",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 102300,
+      "dur": 100
+    },
+    {
+      "name": "Level3_Small",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 102500,
+      "dur": 100
+    },
+    {
+      "name": "Level2_A",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 102700
+    },
+    {
+      "name": "Level1_A",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 102900
+    },
+    {
+      "name": "Level1_B",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103400
+    },
+    {
+      "name": "Recurse_0",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103500
+    },
+    {
+      "name": "Recurse_1",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103550
+    },
+    {
+      "name": "Recurse_2",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103600
+    },
+    {
+      "name": "Recurse_3",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103650
+    },
+    {
+      "name": "Recurse_4",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103700
+    },
+    {
+      "name": "Recurse_5",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103750
+    },
+    {
+      "name": "Recurse_6",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103800
+    },
+    {
+      "name": "Recurse_7",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103850
+    },
+    {
+      "name": "Recurse_8",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103900
+    },
+    {
+      "name": "Recurse_9",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 103950
+    },
+    {
+      "name": "Recurse_10",
+      "ph": "B",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104000
+    },
+    {
+      "name": "Recurse_10",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104100
+    },
+    {
+      "name": "Recurse_9",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104150
+    },
+    {
+      "name": "Recurse_8",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104200
+    },
+    {
+      "name": "Recurse_7",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104250
+    },
+    {
+      "name": "Recurse_6",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104300
+    },
+    {
+      "name": "Recurse_5",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104350
+    },
+    {
+      "name": "Recurse_4",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104400
+    },
+    {
+      "name": "Recurse_3",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104450
+    },
+    {
+      "name": "Recurse_2",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104500
+    },
+    {
+      "name": "Recurse_1",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104550
+    },
+    {
+      "name": "Recurse_0",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104600
+    },
+    {
+      "name": "Level1_B",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 104600
+    },
+    {
+      "name": "RootTask",
+      "ph": "E",
+      "pid": 1,
+      "tid": 1,
+      "ts": 105100
+    },
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1,
+      "tid": 2,
+      "ts": 0,
+      "args": {
+        "name": "WorkerThread"
+      }
+    },
+    {
+      "name": "WorkerJob_0",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 100000,
+      "dur": 1040.4879861247362
+    },
+    {
+      "name": "WorkerJob_1",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 102000,
+      "dur": 1081.0630700059728
+    },
+    {
+      "name": "WorkerJob_2",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 104000,
+      "dur": 1290.5266083582476
+    },
+    {
+      "name": "WorkerJob_3",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 106000,
+      "dur": 675.5302485268868
+    },
+    {
+      "name": "WorkerJob_4",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 108000,
+      "dur": 804.5652710278637
+    },
+    {
+      "name": "WorkerJob_5",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 110000,
+      "dur": 912.1527711878999
+    },
+    {
+      "name": "WorkerJob_6",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 112000,
+      "dur": 1267.8965185221687
+    },
+    {
+      "name": "WorkerJob_7",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 114000,
+      "dur": 837.7972820011522
+    },
+    {
+      "name": "WorkerJob_8",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 116000,
+      "dur": 1241.2607889531346
+    },
+    {
+      "name": "WorkerJob_9",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 118000,
+      "dur": 606.6464115719847
+    },
+    {
+      "name": "WorkerJob_10",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 120000,
+      "dur": 1064.7533191906189
+    },
+    {
+      "name": "WorkerJob_11",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 122000,
+      "dur": 658.4288642335353
+    },
+    {
+      "name": "WorkerJob_12",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 124000,
+      "dur": 1089.800856483716
+    },
+    {
+      "name": "WorkerJob_13",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 126000,
+      "dur": 876.6217073896578
+    },
+    {
+      "name": "WorkerJob_14",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 128000,
+      "dur": 1491.9014030498136
+    },
+    {
+      "name": "WorkerJob_15",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 130000,
+      "dur": 980.9930206485162
+    },
+    {
+      "name": "WorkerJob_16",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 132000,
+      "dur": 686.9681668804186
+    },
+    {
+      "name": "WorkerJob_17",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 134000,
+      "dur": 1155.9852301469464
+    },
+    {
+      "name": "WorkerJob_18",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 136000,
+      "dur": 911.9833564699978
+    },
+    {
+      "name": "WorkerJob_19",
+      "ph": "X",
+      "pid": 1,
+      "tid": 2,
+      "ts": 138000,
+      "dur": 1279.2756603592138
+    }
+  ]
+}
